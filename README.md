@@ -1,2 +1,2 @@
-# zshrc
-Personal zshrc file for oh-my-zsh.
+# zsh-config
+Personal zsh config file with oh-my-zsh.
