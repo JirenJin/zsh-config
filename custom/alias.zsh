@@ -1,8 +1,24 @@
 ## aliases definition
 
-# basic
-eval `gdircolors ~/.dircolors.256dark`
-alias ls='gls --color'
+# basics
+alias cls='clear'
+alias vi='vim'
+alias grep="grep --color=auto"
+alias lll='ls --color=always -l | less -R'
+alias lal='ls --color=always -al | less -R'
+
+# utils
+alias subdirsize='du -ah -d 1 | sort -rh'
+alias wgpu='watch -n 1 nvidia-smi'
+
+# for mac
+if [[ `uname` == 'Darwin' ]]; then
+    eval `gdircolors ~/.dircolors`
+    alias ls='gls --color=tty'
+# for linux(Ubuntu)
+elif [[ `uname` == 'Linux' ]]; then
+    eval `dircolors ~/.dircolors`
+fi
 
 # ssh
 alias tunlab="ssh -fN -L 4321:piano.nlab.ci.i.u-tokyo.ac.jp:22 jin@core1.nlab.ci.i.u-tokyo.ac.jp"
