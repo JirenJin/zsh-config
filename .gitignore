@@ -1,3 +1,7 @@
-custom/plugins
-custom/themes
+# use git clone for downloading
+custom/plugins/*
+custom/themes/*
 
+# local config files for machine dependent configurations
+custom/local/*
+!custom/local/README.md

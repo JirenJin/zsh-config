@@ -28,3 +28,6 @@ alias tuviolin="ssh -fN -L 4323:violin.nlab.ci.i.u-tokyo.ac.jp:22 jin@core1.nlab
 alias lknlab="ssh -p 4321 jin@localhost"
 alias lkoboe="ssh -p 4322 jin@localhost"
 alias lkviolin="ssh -p 4323 jin@localhost"
+
+# vncviewer
+alias tuvnc='ssh -fN -L 5901:piano.nlab.ci.i.u-tokyo.ac.jp:5901 jin@133.11.169.135'
