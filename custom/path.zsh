@@ -11,3 +11,6 @@ LIBRARY_PATH=~/.cudnn/active/cuda/lib64:$LIBRARY_PATH
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# anaconda env
+export PATH="$PYENV_ROOT/versions/anaconda3-4.4.0/bin/:$PATH"
