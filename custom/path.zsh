@@ -13,4 +13,4 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # anaconda env
-export PATH="$PYENV_ROOT/versions/anaconda3-4.4.0/bin/:$PATH"
+export PATH="$PYENV_ROOT/versions/anaconda3-4.4.0/bin:$PATH"
